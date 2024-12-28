@@ -49,7 +49,6 @@ export default function Home() {
           >
             Read our docs
           </a>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati alias magni reiciendis vitae accusantium neque voluptas delectus sed laborum assumenda, itaque unde, repudiandae, distinctio atque praesentium tempora tempore. Rerum, voluptate.</p>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
