@@ -6,8 +6,8 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 
 export async function POST(req: Request){
   try{
-    const {priceId, UserId} = await req.json();
-    if(!priceId || !UserId){
+    const {priceId, userId} = await req.json();
+    if(!priceId || !userId){
         return NextResponse.json(
             {error: "Missing priceId or userId"},
             {status: 400}
@@ -22,8 +22,8 @@ export async function POST(req: Request){
        }, ],
        success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/generate?session_id={CHECKOUT_SESSION_ID}`,
        cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/pricing`,
-       client_reference_id: UserId,
-    })
+       client_reference_id: userId,
+    });
     return NextResponse.json({sessionId: session.id
     })
   }catch(error: any){

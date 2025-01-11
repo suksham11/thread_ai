@@ -16,6 +16,7 @@ export async function createOrUpdateUser(
             .returning()
             .execute();
           console.log("Updated user", updatedUser);
+          return updatedUser;
          }
          
         const [newUser] = await db
@@ -25,7 +26,8 @@ export async function createOrUpdateUser(
         .execute();
         console.log('new user created', newUser)
         
-        sendWelcomeEmail(email, name);
+        await sendWelcomeEmail(email, name);
+        return newUser;
     }catch(error){
      console.error("Error creating or updating user:" , error);
      return null;
