@@ -15,15 +15,15 @@ Thread AI is a powerful Next.js application that leverages AI to generate engagi
 
 ## Tech Stack
 
-- [Next.js](https://nextjs.org/) - React framework for building the frontend and API routes
-- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [Clerk](https://clerk.com/) - Authentication and user management
-- [Google Generative AI](https://ai.google.dev/) - AI model for content generation
-- [Drizzle ORM](https://orm.drizzle.team/) - TypeScript ORM for database management
-- [Neon Database](https://neon.tech/) - Serverless Postgres database
-- [Stripe](https://stripe.com/) - Payment processing for subscriptions
-- [Lucide React](https://lucide.dev/) - Icon library
+- [Next.js](https://nextjs.org/) 
+- [TypeScript](https://www.typescriptlang.org/) 
+- [Tailwind CSS](https://tailwindcss.com/) 
+- [Clerk](https://clerk.com/) 
+- [Google Generative AI](https://ai.google.dev/) 
+- [Drizzle ORM](https://orm.drizzle.team/)
+- [Neon Database](https://neon.tech/) 
+- [Stripe](https://stripe.com/) 
+- [Lucide React](https://lucide.dev/) 
 
 ## Getting Started
 
@@ -60,11 +60,6 @@ Thread AI is a powerful Next.js application that leverages AI to generate engagi
 
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deployment
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Contributing
 
