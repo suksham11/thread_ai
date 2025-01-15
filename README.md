@@ -13,18 +13,6 @@ Thread AI is a powerful Next.js application that leverages AI to generate engagi
 - Preview functionality for generated content
 - Integration with Google's Generative AI (Gemini)
 
-## Tech Stack
-
-- [Next.js](https://nextjs.org/) 
-- [TypeScript](https://www.typescriptlang.org/) 
-- [Tailwind CSS](https://tailwindcss.com/) 
-- [Clerk](https://clerk.com/) 
-- [Google Generative AI](https://ai.google.dev/) 
-- [Drizzle ORM](https://orm.drizzle.team/)
-- [Neon Database](https://neon.tech/) 
-- [Stripe](https://stripe.com/) 
-- [Lucide React](https://lucide.dev/) 
-
 ## Getting Started
 
 1. Clone the repository:
